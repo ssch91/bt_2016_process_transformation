@@ -2,16 +2,11 @@ This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: BT_ssch_2016.aux
 The style file: ../nakcitstyle.bst
-I couldn't open database file praxisbericht5_ssch.bib
----line 30 of file BT_ssch_2016.aux
- : \bibdata{praxisbericht5_ssch
- :                             }
-I'm skipping whatever remains of this command
 I found no \citation commands---while reading file BT_ssch_2016.aux
-I found no database files---while reading file BT_ssch_2016.aux
+Database file #1: ../BT_ssch_2016.bib
 You've used 0 entries,
             2936 wiz_defined-function locations,
-            598 strings with 4849 characters,
+            598 strings with 4845 characters,
 and the built_in function-call counts, 37 in all, are:
 = -- 0
 > -- 0
@@ -50,4 +45,4 @@ warning$ -- 0
 while$ -- 0
 width$ -- 0
 write$ -- 8
-(There were 3 error messages)
+(There was 1 error message)

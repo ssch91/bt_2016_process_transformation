@@ -1,0 +1,69 @@
+%-Eingabe der Metadaten des Titelblattes--------------------------
+
+%-Daten des Autors / Authors Data---------------------------------
+
+\newcommand{\dcauthorpre}{Herr/Frau} %ggf Titel
+\newcommand{\dcauthorsurname}{Nachname} 
+\newcommand{\dcauthorname}{Vorname} 
+\newcommand{\dcauthoradd}{Irgendwann in Irgendwo} %geboren am 
+\newcommand{\dcauthorno}{Matrikelnummer} %Matrikelnummer
+
+%-Titel und Untertitel / Title and subtitle-----------------------
+
+\newcommand{\dctitle}{Der Titel der Arbeit} 
+\newcommand{\dcsubtitle}{~}  
+% Falls dcsubtitle NICHT verwendet werden soll, {\dcsubtitle}{~} eingeben.
+
+%-Eingabe der Gutachternamen / Names of the approvals-------------
+
+\newcommand{\dcapprovala}{Dr.-Ing. Jan Himmelspach} 
+\newcommand{\dcapprovalb}{Zweitgutachter} 
+\newcommand{\dcapprovalc}{} 
+
+%-Eingabe der Betreuernamen / Name of the advisors ---------------
+
+\newcommand{\dcada}{Betrieblicher Betreuer}
+
+%-Information zur Universitaet------------------------------------
+
+\newcommand{\dcdegree}{Bachlor of Science\\(BSc)} 
+\newcommand{\dcsubject}{Informatik} 
+\newcommand{\dcfaculty}{Fachbereich Informatik}
+\newcommand{\dcuniversity}{NORDAKADEMIE}
+\newcommand{\dcdean}{}
+\newcommand{\dcpresident}{Prof. Dr. Behringer} %???
+
+%-Pruefungsdaten: eingereicht und mdl. Pruefung-------------------
+%-data of submission and oral exam--------------------------------
+
+\newcommand{\dcdatesubmitted}{31. Januar 2011} %auch wenn nicht auf dem Titelblatt, bitte erfüllen!
+\newcommand{\dcdateexam}{n.n.} 
+
+%-CR Klassifikation / cr classification --------------------------
+%siehe: http://www.acm.org/class/1998/
+\newcommand{\dccrclassification}{I.6.8[Simulation and Modelling]:Types of Simulation---Discrete event, Distributed, Parallel;}
+
+%-deutsche Schlagwoerter / german keywords------------------------
+
+\newcommand{\dckeydea}{Schlagwort 1}
+\newcommand{\dckeydeb}{Schlagwort 2}
+\newcommand{\dckeydec}{Schlagwort 3}
+\newcommand{\dckeyded}{Schlagwort 4}
+
+% Folgende Zeile bitte nicht aendern!
+\newcommand{\dckeywordsde}{\vfill \raggedright {\textbf{Schlagw\"orter:}}\\ \dckeydea, \dckeydeb, \dckeydec, \dckeyded \\}
+
+%-englische Schlagwoerter / english keywords----------------------
+
+\newcommand{\dckeyena}{keyword 1}
+\newcommand{\dckeyenb}{keyword 2}
+\newcommand{\dckeyenc}{keyword 3}
+\newcommand{\dckeyend}{keyword 4}
+
+% Folgende Zeile bitte nicht aendern!
+\newcommand{\dckeywordsen}{\vfill \raggedright {\textbf{Keywords:}}\\ \dckeyena, \dckeyenb, \dckeyenc, \dckeyend \\}
+%\newcommand{\dccrandkeywordsen}{\vfill \raggedright { \small {\textbf{CR--Classification (1998)::}}\\ \dccrclassification \\}\vspace{4mm}{\textbf{Keywords:}}\\ \dckeyena, \dckeyenb, \dckeyenc, \dckeyend \\}
+%\raggedright removed from line below (after \vfill)
+\newcommand{\dccrandkeywordsen}{\vfill { \small \noindent {\textbf{CR--Classification (1998)::}}\\ \dccrclassification \\}\vspace{4mm}{\textbf{Keywords:}}\\ \dckeyena, \dckeyenb, \dckeyenc, \dckeyend \\}
+
+\newcommand{\dcpdfsubject}{Bachelorarbeit}

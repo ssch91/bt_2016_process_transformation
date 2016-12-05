@@ -1,0 +1,140 @@
+\documentclass[utf8,a4paper,12pt,headsepline,oneside,numbers=noenddot]{scrbook}
+\usepackage[utf8]{inputenc}
+\usepackage{url}
+\usepackage{geometry}
+\usepackage[font=small,labelfont=bf]{caption}
+%\usepackage[ansinew]{inputenc}
+\usepackage{calc}
+\usepackage{graphicx}
+\usepackage{tabularx}
+%\usepackage{floatflt}
+\usepackage{listings}
+\usepackage{amsmath, amsthm, amssymb}
+%\usepackage{longtable} %Support for large tables
+%\usepackage{rotating} %Support for rotation of large tables
+\usepackage{makeidx}
+%\usepackage[style=altlist, number=none, toc]{glossary} %Glossary support
+\usepackage{algorithm}
+\usepackage{listings}%[procnames]
+\usepackage[nottoc]{tocbibind}
+\usepackage[ngerman]{babel}
+\usepackage{scrpage2}
+\usepackage{setspace} % Achtung: unterhalb von \begin{document} wird der Zeilenabstand variabler gesetzt (1.5 absoluter MAX - Wert!!!)
+\usepackage{breakcites} % Bricht zu lange Zitierungen im Text um (vorallem benötigt by apalike,chicago, ....)
+
+
+%Set page layout
+\geometry{verbose,a4paper,left=3cm,top=2.5cm+\headheight+\headsep,right=2.5cm,bottom=2.5cm+\footskip,pdftex}
+
+%Additional latex definitions
+
+% Definition of a tight list (for title page)
+\newenvironment{tightlist}{
+\begin{list}{\textbullet}{
+\setlength{\topsep}{-1ex}
+\setlength{\itemsep}{-1ex}
+\setlength{\leftmargin}{4ex}
+}
+}{
+\end{list}
+\vspace{1ex}
+}
+
+%Default font
+\renewcommand{\familydefault}{\sfdefault}
+
+%Create glossary, index
+
+%\makeglossary
+\makeindex
+
+\include{metadata}							% Bitte ALLE Angaben erfüllen!
+\include{compatibility}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+% Hyphenation options %
+%%%%%%%%%%%%%%%%%%%%%%%
+
+%For manual hypenation settings: \hyphenation{Hy-phenation} etc.
+
+%%%%%%%%%%%%%%%%%%%
+% Listing options %
+%%%%%%%%%%%%%%%%%%%
+
+%Define pseudo-code
+\lstdefinelanguage{pseudo-code}{texcl,mathescape,keywords={function,begin,end,return,until,repeat,while,do,case,for,each,if,then,else,or,endcase,loop,od,continue_while,continue_loop,when,wait,from,in,send,to,not,union,downto,double,boolean,this,new,class}, comment=[l]{//},breaklines=true,breakatwhitespace=true}
+
+%Define basic options
+\lstset{frameround=tttt,basicstyle=\small}
+
+
+
+
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+\renewcommand{\thechapter}{\Roman{chapter}}
+\renewcommand{\thesection}{\arabic{section}}
+%\renewcommand{\thefigure}{\arabic{figure}}
+
+
+
+
+\begin{document}
+\setstretch{1.2} % Zeileabstand: NICHT über 1.5 setzen!!
+
+%Front page and abstract
+\include{titlepage}
+
+
+\tableofcontents
+
+%Index
+\clearpage
+\label{sec:index}
+\printindex
+
+%Content
+
+
+
+%\input{introduction}
+%\input{background}
+\chapter{Einleitung}
+\input{algorithmselectionproblem}
+
+\input{economyportfolio}
+
+\input{simulation}
+
+\chapter{Algorithmenportfolios}
+
+\input{portfolio}
+\begin{flushleft}\end{flushleft}
+
+\input{zusammenfassung}
+
+%\input{results}
+%\input{conclusions}
+
+%Bibliography
+\bibliographystyle{apalike-german} % Kann auch gerne ausgetauscht werden; plain spart z.B. Platz
+\bibliography{literature}
+
+%Glossary
+%See e.g. http://www.bastian.name/blogger/2006/02/abkrzungsverzeichnis-und-glossar.html for further options and how to integrate this with texniccenter
+\clearpage
+%\include{glossar}
+%\printglossary
+\automark[section]{chapter}
+
+%List of figures
+\clearpage
+\listoffigures
+
+%Appendices
+%\input{appendices}
+
+%Adding formal stuff...
+
+
+\end{document}

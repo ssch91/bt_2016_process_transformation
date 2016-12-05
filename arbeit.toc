@@ -1,0 +1,21 @@
+\select@language {ngerman}
+\contentsline {chapter}{\numberline {I}Einleitung}{3}{chapter.2}
+\contentsline {section}{\numberline {1}Algorithm Selection Problem}{3}{section.3}
+\contentsline {section}{\numberline {2}Algorithmenportfolios}{4}{section.5}
+\contentsline {section}{\numberline {3}Simulationsprobleme}{6}{section.7}
+\contentsline {chapter}{\numberline {II}Algorithmenportfolios}{7}{chapter.8}
+\contentsline {section}{\numberline {1}Allgemeines}{7}{section.9}
+\contentsline {subsection}{\numberline {1.1}Restartstrategien}{8}{subsection.10}
+\contentsline {subsection}{\numberline {1.2}Auswahl der Algorithmen}{10}{subsection.13}
+\contentsline {subsection}{\numberline {1.3}Problemtypen und Leistungsbewertung}{11}{subsection.14}
+\contentsline {subsection}{\numberline {1.4}Kooperation von Algorithmen}{12}{subsection.17}
+\contentsline {section}{\numberline {2}Ausf\IeC {\"u}hrungsarten}{14}{section.18}
+\contentsline {subsection}{\numberline {2.1}Parallele Ausf\IeC {\"u}hrung}{14}{subsection.19}
+\contentsline {subsection}{\numberline {2.2}Verschr\IeC {\"a}nkte Ausf\IeC {\"u}hrung}{15}{subsection.21}
+\contentsline {subsection}{\numberline {2.3}Einzelne Ausf\IeC {\"u}hrung}{16}{subsection.23}
+\contentsline {section}{\numberline {3}Entwicklung eines Algorithmenportfolios}{17}{section.25}
+\contentsline {subsection}{\numberline {3.1}Statische Entwicklung}{18}{subsection.27}
+\contentsline {subsection}{\numberline {3.2}Dynamische Entwicklung}{19}{subsection.28}
+\contentsline {chapter}{\numberline {III}Zusammenfassung}{22}{chapter.32}
+\contentsline {chapter}{Literaturverzeichnis}{24}{chapter*.33}
+\contentsline {chapter}{Abbildungsverzeichnis}{26}{chapter*.34}

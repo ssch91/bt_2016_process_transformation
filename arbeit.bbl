@@ -1,0 +1,94 @@
+\begin{thebibliography}{}
+
+\bibitem[Br\'{e}laz, 1979]{brelaz79}
+Br\'{e}laz, D. (1979).
+\newblock New methods to color the vertices of a graph.
+\newblock {\em Communications of the ACM}, 22:251--256.
+
+\bibitem[Ewald et~al., 2010]{ewald10}
+Ewald, R., Schulz, R., und Uhrmacher, A.~M. (2010).
+\newblock Selecting Simulation Algorithm Portfolios by Genetic Algorithms.
+\newblock In {\em IEEE Workshop on Principles of Advanced and Distributed
+  Simulation (PADS)}, Seiten 1--9.
+
+\bibitem[Fukunaga, 2000]{fukunaga99}
+Fukunaga, A. (2000).
+\newblock Genetic algorithm portfolios.
+\newblock In {\em Proceedings of the 2000 Congress on Evolutionary
+  Computation}, Band~2, Seiten 1304 -- 1311.
+
+\bibitem[Gagliolo und Schmidhuber, 2006]{gaglioloschmidhuber06}
+Gagliolo, M. und Schmidhuber, J. (2006).
+\newblock Learning dynamic algorithm portfolios.
+\newblock {\em Annals of Mathematics and Artificial Intelligence}, 47:3--4.
+
+\bibitem[Gagliolo und Schmidhuber, 2007]{gaglioloschmidhuber07}
+Gagliolo, M. und Schmidhuber, J. (2007).
+\newblock Learning Restart Strategies.
+\newblock In {\em Proceedings of the 20th International Joint Conference on
+  Artificial Intelligence}, Seiten 792--797.
+
+\bibitem[Gagliolo und Schmidhuber, 2008]{gagliolo08}
+Gagliolo, M. und Schmidhuber, J. (2008).
+\newblock Towards Distributed Algorithm Portfolios.
+\newblock In {\em International Symposium on Distributed Computing and
+  Artificial Intelligence}, Band~50 in {\em Advances in Soft Computing}, Seiten
+  634--643. Springer.
+
+\bibitem[Gomes und Selman, 2001]{gomesselman97}
+Gomes, C.~P. und Selman, B. (2001).
+\newblock Algorithm portfolios.
+\newblock {\em Artificial Intelligence}, 126:43--62.
+
+\bibitem[Guyon und Elisseeff, 2003]{guyon03}
+Guyon, I. und Elisseeff, A. (2003).
+\newblock An introduction to variable and feature selection.
+\newblock {\em Journal of Machine Learning Research}, 3:1157--1182.
+
+\bibitem[Huberman et~al., 1997]{huberman97}
+Huberman, B.~A., Lukose, R.~M., und Hogg, T. (1997).
+\newblock An Economics Approach to Hard Computational Problems.
+\newblock {\em Science}, 275:51--54.
+
+\bibitem[Kautz et~al., 2002]{kautz02}
+Kautz, H.~A., Horvitz, E., Ruan, Y., Gomes, C.~P., und Selman, B. (2002).
+\newblock Dynamic Restart Policies.
+\newblock In {\em Proceedings of the 18th National Conference on Artificial
+  Intelligence}, Seiten 674--681.
+
+\bibitem[Kira und Rendell, 1992]{kira92}
+Kira, K. und Rendell, L.~A. (1992).
+\newblock The Feature Selection Problem: Traditional Methods and a New
+  Algorithm.
+\newblock In {\em Proceedings of the 10th National Conference on Artificial
+  Intelligence}, Seiten 129--134.
+
+\bibitem[Markowitz, 1952]{markowitz1}
+Markowitz, H. (1952).
+\newblock Portfolio selection.
+\newblock {\em Journal of Finance}, 7:77--91.
+
+\bibitem[Rice, 1976]{rice76}
+Rice, J.~R. (1976).
+\newblock The Algorithm Selection Problem.
+\newblock {\em Advances in Computers}, 15:65--118.
+
+\bibitem[Roberts, 2006]{roberts06}
+Roberts, M. (2006).
+\newblock Harnessing Algorithm Bias A Study of Selection Strategies and
+  Evaluation for Portfolios of Algorithms.
+
+\bibitem[Rybacki et~al., 2009]{himmelspach09}
+Rybacki, S., Himmelspach, J., und Uhrmacher, A.~M. (2009).
+\newblock Experiments with Single Core, Multi-core, and GPU Based Computation
+  of Cellular Automata.
+\newblock In {\em Proceedings of the 2009 First International Conference on
+  Advances in System Simulation}, Seiten 62--67. IEEE Computer Society.
+
+\bibitem[Smith-Miles, 2009]{smith09}
+Smith-Miles, K.~A. (2009).
+\newblock Cross-disciplinary perspectives on meta-learning for algorithm
+  selection.
+\newblock {\em ACM Computing Surveys}, 41:1--25.
+
+\end{thebibliography}
