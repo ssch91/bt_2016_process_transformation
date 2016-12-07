@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.11.27)  5 DEC 2016 15:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.11.27)  6 DEC 2016 21:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1061,13 +1061,13 @@ t)
 
 \openout2 = `titlepage.aux'.
 
- (./titlepage.tex <images/uni-logo.png, id=20, 120.85284pt x 36.49756pt>
+ (./titlepage.tex <images/uni-logo.png, id=36, 120.85284pt x 36.49756pt>
 File: images/uni-logo.png Graphic file (type png)
 
 <use images/uni-logo.png>
 Package pdftex.def Info: images/uni-logo.png used on input line 4.
 (pdftex.def)             Requested size: 150.5733pt x 60.22728pt.
- <images/Logo-GLC1.png, id=22, 393.47pt x 122.4575pt>
+ <images/Logo-GLC1.png, id=38, 393.47pt x 122.4575pt>
 File: images/Logo-GLC1.png Graphic file (type png)
 
 <use images/Logo-GLC1.png>
@@ -1096,7 +1096,16 @@ Package babel Info: Redefining ngerman shorthand "~
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image
 s/uni-logo.png> <./images/Logo-GLC1.png>])
 (/Users/sebastianschack/Git/bt_2016_process_transformation/.texpadtmp/arbeit.to
-c)
+c
+LaTeX Font Info:    Try loading font information for U+msa on input line 3.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 3.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
 \tf@toc=\write5
 \openout5 = `arbeit.toc'.
 
@@ -1131,7 +1140,15 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              a package that still implements the
 (scrbook)              deprecated \float@addtolist interface .
 
-) (./zusammenfassung.tex
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 3.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 3.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 5.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 5.
+) (./Analyse.tex
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1146,9 +1163,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
-)
-(/Users/sebastianschack/Git/bt_2016_process_transformation/.texpadtmp/arbeit.bb
-l
+) (./Neukonzeption.tex
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1157,77 +1172,109 @@ Package babel Info: Redefining ngerman shorthand "~
 
 
 ]
+chapter III.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
-
-
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
-
-)
+) (./zusammenfassung.tex
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 117.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 117.
+(babel)             in language  on input line 1.
  [5
 
 
 ]
+chapter IV.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 124.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 124.
+(babel)             in language  on input line 1.
+)
+(/Users/sebastianschack/Git/bt_2016_process_transformation/.texpadtmp/arbeit.bb
+l
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1.
+ [6
+
+
+]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <12> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 6.
+
+)
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 123.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 123.
+ [7
+
+
+]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 130.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 130.
 
 (/Users/sebastianschack/Git/bt_2016_process_transformation/.texpadtmp/arbeit.lo
 f)
 \tf@lof=\write6
 \openout6 = `arbeit.lof'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 132.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 138.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 132.
+(babel)             in language  on input line 138.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 132.
- [6
+(babel)             in language  on input line 138.
+ [8
 
 
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 132.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 138.
 
 (/Users/sebastianschack/Git/bt_2016_process_transformation/.texpadtmp/arbeit.au
 x
 (/Users/sebastianschack/Git/bt_2016_process_transformation/.texpadtmp/titlepage
 .aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 132.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 132.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 138.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 138.
 Package rerunfilecheck Info: File `arbeit.out' has not changed.
 (rerunfilecheck)             Checksum: 9FD5BEEC4FA05C61E535EAE55FF653F3;1356.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 132.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 138.
  ) 
 Here is how much of TeX's memory you used:
- 12380 strings out of 493014
- 193485 string characters out of 6133350
+ 12461 strings out of 493014
+ 194652 string characters out of 6133350
  385375 words of memory out of 5000000
- 15719 multiletter control sequences out of 15000+600000
- 5997 words of font info for 22 fonts, out of 8000000 for 9000
+ 15767 multiletter control sequences out of 15000+600000
+ 10997 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,7n,66p,8512b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 Output written on /Users/sebastianschack/Git/bt_2016_process_transformation/.te
-xpadtmp/arbeit.pdf (6 pages, 87456 bytes).
+xpadtmp/arbeit.pdf (8 pages, 100974 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 115 PDF objects out of 1000 (max. 8388607)
+ 95 compressed objects within 1 object stream
+ 19 named destinations out of 1000 (max. 500000)
+ 75 words of extra memory for PDF output out of 10000 (max. 10000000)
 
