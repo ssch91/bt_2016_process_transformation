@@ -4,44 +4,47 @@ The top-level auxiliary file: arbeit.aux
 A level-1 auxiliary file: titlepage.aux
 The style file: ../apalike-german.bst
 Database file #1: ../literature.bib
-You've used 1 entry,
+Warning--to sort, need author, editor, or key in TOGAF
+Warning--empty author and editor in TOGAF
+You've used 2 entries,
             1932 wiz_defined-function locations,
-            481 strings with 3820 characters,
-and the built_in function-call counts, 386 in all, are:
-= -- 37
-> -- 13
+            489 strings with 3938 characters,
+and the built_in function-call counts, 575 in all, are:
+= -- 53
+> -- 8
 < -- 1
-+ -- 4
-- -- 4
-* -- 31
-:= -- 72
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 6
-chr.to.int$ -- 1
-cite$ -- 1
-duplicate$ -- 14
-empty$ -- 28
-format.name$ -- 7
-if$ -- 75
++ -- 2
+- -- 2
+* -- 43
+:= -- 100
+add.period$ -- 7
+call.type$ -- 2
+change.case$ -- 10
+chr.to.int$ -- 2
+cite$ -- 5
+duplicate$ -- 32
+empty$ -- 58
+format.name$ -- 3
+if$ -- 118
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 1
-newline$ -- 8
-num.names$ -- 3
-pop$ -- 4
+missing$ -- 2
+newline$ -- 13
+num.names$ -- 4
+pop$ -- 12
 preamble$ -- 1
-purify$ -- 6
+purify$ -- 9
 quote$ -- 0
-skip$ -- 12
+skip$ -- 19
 stack$ -- 0
-substring$ -- 27
-swap$ -- 1
+substring$ -- 25
+swap$ -- 2
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 6
-warning$ -- 0
-while$ -- 3
+type$ -- 8
+warning$ -- 2
+while$ -- 2
 width$ -- 0
-write$ -- 15
+write$ -- 29
+(There were 2 warnings)

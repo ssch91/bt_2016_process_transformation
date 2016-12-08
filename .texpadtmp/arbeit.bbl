@@ -1,8 +1,15 @@
 \begin{thebibliography}{}
 
-\bibitem[Gomes und Selman, 2001]{gomesselman97}
-Gomes, C.~P. und Selman, B. (2001).
-\newblock Algorithm portfolios.
-\newblock {\em Artificial Intelligence}, 126:43--62.
+\bibitem[TOG, 2011]{TOGAF}
+ (2011).
+\newblock {\em TOGAF Version 9.1}.
+\newblock TOGAF series. {Van Haren Publishing}, Zaltbommel, 1st ed..
+  Auf\kern0pt lage.
+
+\bibitem[Scheer, 2000]{Scheer.2000}
+Scheer, A.-W., Herausgeber (2000).
+\newblock {\em Consulting: Wissen f{\"u}r die Strategie-, Prozess- und
+  IT-Beratung}.
+\newblock Springer, Berlin.
 
 \end{thebibliography}
