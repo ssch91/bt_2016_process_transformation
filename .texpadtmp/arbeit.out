@@ -14,12 +14,15 @@
 \BOOKMARK [0][-]{chapter.16}{Neukonzeption}{}% 14
 \BOOKMARK [1][-]{section.17}{ADM als Methode}{chapter.16}% 15
 \BOOKMARK [1][-]{section.18}{Voruntersuchung}{chapter.16}% 16
-\BOOKMARK [1][-]{section.19}{Anvisierte Architektur}{chapter.16}% 17
-\BOOKMARK [1][-]{section.20}{Gesch\344ftsarchitektur}{chapter.16}% 18
-\BOOKMARK [1][-]{section.21}{Informationssystemarchitektur}{chapter.16}% 19
-\BOOKMARK [2][-]{subsection.22}{Datenarchitektur}{section.21}% 20
-\BOOKMARK [2][-]{subsection.23}{Anwedungsarchitektur}{section.21}% 21
-\BOOKMARK [1][-]{section.24}{Technologieinfrastruktur}{chapter.16}% 22
-\BOOKMARK [0][-]{chapter.25}{Zusammenfassung}{}% 23
-\BOOKMARK [0][-]{chapter*.26}{Literaturverzeichnis}{}% 24
-\BOOKMARK [0][-]{chapter*.27}{Abbildungsverzeichnis}{}% 25
+\BOOKMARK [2][-]{subsection.19}{Anforderungsanalyse}{section.18}% 17
+\BOOKMARK [3][-]{subsubsection.20}{Interne Anforderungen}{subsection.19}% 18
+\BOOKMARK [3][-]{subsubsection.21}{Gesetzliche Anforderungen}{subsection.19}% 19
+\BOOKMARK [1][-]{section.22}{Anvisierte Architektur}{chapter.16}% 20
+\BOOKMARK [1][-]{section.23}{Gesch\344ftsarchitektur}{chapter.16}% 21
+\BOOKMARK [1][-]{section.24}{Informationssystemarchitektur}{chapter.16}% 22
+\BOOKMARK [2][-]{subsection.25}{Datenarchitektur}{section.24}% 23
+\BOOKMARK [2][-]{subsection.26}{Anwedungsarchitektur}{section.24}% 24
+\BOOKMARK [1][-]{section.27}{Technologieinfrastruktur}{chapter.16}% 25
+\BOOKMARK [0][-]{chapter.28}{Zusammenfassung}{}% 26
+\BOOKMARK [0][-]{chapter*.29}{Literaturverzeichnis}{}% 27
+\BOOKMARK [0][-]{chapter*.30}{Abbildungsverzeichnis}{}% 28

@@ -1,26 +1,29 @@
 \select@language {ngerman}
-\contentsline {chapter}{\numberline {I}Einleitung}{3}{chapter.2}
-\contentsline {section}{\numberline {1}Motivation}{3}{section.3}
-\contentsline {section}{\numberline {2}Methodisches Vorgehen}{3}{section.4}
-\contentsline {chapter}{\numberline {II}Analyse}{4}{chapter.6}
-\contentsline {section}{\numberline {1}Einordnung des Kreditorenworkflows}{4}{section.7}
-\contentsline {section}{\numberline {2}Ist-Aufnahme}{4}{section.8}
-\contentsline {subsection}{\numberline {2.1}Kreditorenworkflow Teil 1: Rechnungsfreigabe}{4}{subsection.9}
-\contentsline {subsubsection}{\numberline {2.1.1}Prozessablauf}{4}{subsubsection.10}
-\contentsline {subsection}{\numberline {2.2}Kreditorenworkflow Teil 2: Rechnungsbuchung}{4}{subsection.11}
-\contentsline {subsubsection}{\numberline {2.2.1}Prozessablauf}{4}{subsubsection.12}
-\contentsline {section}{\numberline {3}Problemanalyse}{4}{section.13}
-\contentsline {section}{\numberline {4}Performance Measurement}{4}{section.14}
-\contentsline {subsection}{\numberline {4.1}Key Performance Indicators}{4}{subsection.15}
-\contentsline {chapter}{\numberline {III}Neukonzeption}{5}{chapter.16}
-\contentsline {section}{\numberline {1}ADM als Methode}{5}{section.17}
-\contentsline {section}{\numberline {2}Voruntersuchung}{5}{section.18}
-\contentsline {section}{\numberline {3}Anvisierte Architektur}{5}{section.19}
-\contentsline {section}{\numberline {4}Gesch\IeC {\"a}ftsarchitektur}{5}{section.20}
-\contentsline {section}{\numberline {5}Informationssystemarchitektur}{5}{section.21}
-\contentsline {subsection}{\numberline {5.1}Datenarchitektur}{5}{subsection.22}
-\contentsline {subsection}{\numberline {5.2}Anwedungsarchitektur}{5}{subsection.23}
-\contentsline {section}{\numberline {6}Technologieinfrastruktur}{5}{section.24}
-\contentsline {chapter}{\numberline {IV}Zusammenfassung}{6}{chapter.25}
-\contentsline {chapter}{Literaturverzeichnis}{7}{chapter*.26}
-\contentsline {chapter}{Abbildungsverzeichnis}{8}{chapter*.27}
+\contentsline {chapter}{\numberline {I}Einleitung}{4}{chapter.2}
+\contentsline {section}{\numberline {1}Motivation}{4}{section.3}
+\contentsline {section}{\numberline {2}Methodisches Vorgehen}{4}{section.4}
+\contentsline {chapter}{\numberline {II}Analyse}{6}{chapter.6}
+\contentsline {section}{\numberline {1}Einordnung des Kreditorenworkflows}{6}{section.7}
+\contentsline {section}{\numberline {2}Ist-Aufnahme}{6}{section.8}
+\contentsline {subsection}{\numberline {2.1}Kreditorenworkflow Teil 1: Rechnungsfreigabe}{6}{subsection.9}
+\contentsline {subsubsection}{\numberline {2.1.1}Prozessablauf}{6}{subsubsection.10}
+\contentsline {subsection}{\numberline {2.2}Kreditorenworkflow Teil 2: Rechnungsbuchung}{6}{subsection.11}
+\contentsline {subsubsection}{\numberline {2.2.1}Prozessablauf}{6}{subsubsection.12}
+\contentsline {section}{\numberline {3}Problemanalyse}{6}{section.13}
+\contentsline {section}{\numberline {4}Performance Measurement}{6}{section.14}
+\contentsline {subsection}{\numberline {4.1}Key Performance Indicators}{6}{subsection.15}
+\contentsline {chapter}{\numberline {III}Neukonzeption}{7}{chapter.16}
+\contentsline {section}{\numberline {1}ADM als Methode}{7}{section.17}
+\contentsline {section}{\numberline {2}Voruntersuchung}{7}{section.18}
+\contentsline {subsection}{\numberline {2.1}Anforderungsanalyse}{7}{subsection.19}
+\contentsline {subsubsection}{\numberline {2.1.1}Interne Anforderungen}{7}{subsubsection.20}
+\contentsline {subsubsection}{\numberline {2.1.2}Gesetzliche Anforderungen}{7}{subsubsection.21}
+\contentsline {section}{\numberline {3}Anvisierte Architektur}{7}{section.22}
+\contentsline {section}{\numberline {4}Gesch\IeC {\"a}ftsarchitektur}{7}{section.23}
+\contentsline {section}{\numberline {5}Informationssystemarchitektur}{7}{section.24}
+\contentsline {subsection}{\numberline {5.1}Datenarchitektur}{8}{subsection.25}
+\contentsline {subsection}{\numberline {5.2}Anwedungsarchitektur}{8}{subsection.26}
+\contentsline {section}{\numberline {6}Technologieinfrastruktur}{8}{section.27}
+\contentsline {chapter}{\numberline {IV}Zusammenfassung}{9}{chapter.28}
+\contentsline {chapter}{Literaturverzeichnis}{10}{chapter*.29}
+\contentsline {chapter}{Abbildungsverzeichnis}{11}{chapter*.30}
