@@ -6,26 +6,31 @@
 \BOOKMARK [2][-]{subsection.10}{Teil II: Neukonzeption}{section.4}% 6
 \BOOKMARK [0][-]{chapter.12}{Analyse}{}% 7
 \BOOKMARK [1][-]{section.13}{Einordnung des Kreditorenworkflows}{chapter.12}% 8
-\BOOKMARK [1][-]{section.14}{Ist-Aufnahme}{chapter.12}% 9
-\BOOKMARK [2][-]{subsection.15}{Kreditorenworkflow Teil 1: Rechnungsfreigabe}{section.14}% 10
-\BOOKMARK [3][-]{subsubsection.16}{Prozessablauf}{subsection.15}% 11
-\BOOKMARK [2][-]{subsection.17}{Kreditorenworkflow Teil 2: Rechnungsbuchung}{section.14}% 12
-\BOOKMARK [3][-]{subsubsection.18}{Prozessablauf}{subsection.17}% 13
-\BOOKMARK [1][-]{section.19}{Problemanalyse}{chapter.12}% 14
-\BOOKMARK [1][-]{section.20}{Performance Measurement}{chapter.12}% 15
-\BOOKMARK [2][-]{subsection.21}{Key Performance Indicators}{section.20}% 16
-\BOOKMARK [0][-]{chapter.22}{Neukonzeption}{}% 17
-\BOOKMARK [1][-]{section.23}{ADM als Methode}{chapter.22}% 18
-\BOOKMARK [1][-]{section.24}{Voruntersuchung}{chapter.22}% 19
-\BOOKMARK [2][-]{subsection.25}{Anforderungsanalyse}{section.24}% 20
-\BOOKMARK [3][-]{subsubsection.26}{Interne Anforderungen}{subsection.25}% 21
-\BOOKMARK [3][-]{subsubsection.27}{Gesetzliche Anforderungen}{subsection.25}% 22
-\BOOKMARK [1][-]{section.28}{Anvisierte Architektur}{chapter.22}% 23
-\BOOKMARK [1][-]{section.29}{Gesch\344ftsarchitektur}{chapter.22}% 24
-\BOOKMARK [1][-]{section.30}{Informationssystemarchitektur}{chapter.22}% 25
-\BOOKMARK [2][-]{subsection.31}{Datenarchitektur}{section.30}% 26
-\BOOKMARK [2][-]{subsection.32}{Anwedungsarchitektur}{section.30}% 27
-\BOOKMARK [1][-]{section.33}{Technologieinfrastruktur}{chapter.22}% 28
-\BOOKMARK [0][-]{chapter.34}{Zusammenfassung}{}% 29
-\BOOKMARK [0][-]{chapter*.35}{Literaturverzeichnis}{}% 30
-\BOOKMARK [0][-]{chapter*.36}{Abbildungsverzeichnis}{}% 31
+\BOOKMARK [2][-]{subsection.14}{Prozessportfolio}{section.13}% 9
+\BOOKMARK [2][-]{subsection.15}{Prozesslandkarte}{section.13}% 10
+\BOOKMARK [2][-]{subsection.16}{Auswertung der Einordnung}{section.13}% 11
+\BOOKMARK [1][-]{section.17}{Ist-Aufnahme}{chapter.12}% 12
+\BOOKMARK [2][-]{subsection.18}{Kreditorenworkflow Teil 1: Rechnungsfreigabe}{section.17}% 13
+\BOOKMARK [3][-]{subsubsection.19}{Prozessablauf}{subsection.18}% 14
+\BOOKMARK [3][-]{subsubsection.20}{Prozessmodellierung}{subsection.18}% 15
+\BOOKMARK [2][-]{subsection.21}{Kreditorenworkflow Teil 2: Rechnungsbuchung}{section.17}% 16
+\BOOKMARK [3][-]{subsubsection.22}{Prozessablauf}{subsection.21}% 17
+\BOOKMARK [3][-]{subsubsection.23}{Prozessmodellierung}{subsection.21}% 18
+\BOOKMARK [1][-]{section.24}{Problemanalyse}{chapter.12}% 19
+\BOOKMARK [1][-]{section.25}{Performance Measurement}{chapter.12}% 20
+\BOOKMARK [2][-]{subsection.26}{Key Performance Indicators}{section.25}% 21
+\BOOKMARK [0][-]{chapter.27}{Neukonzeption}{}% 22
+\BOOKMARK [1][-]{section.28}{ADM als Methode}{chapter.27}% 23
+\BOOKMARK [1][-]{section.29}{Voruntersuchung}{chapter.27}% 24
+\BOOKMARK [2][-]{subsection.30}{Anforderungsanalyse}{section.29}% 25
+\BOOKMARK [3][-]{subsubsection.31}{Interne Anforderungen}{subsection.30}% 26
+\BOOKMARK [3][-]{subsubsection.32}{Gesetzliche Anforderungen}{subsection.30}% 27
+\BOOKMARK [1][-]{section.33}{Anvisierte Architektur}{chapter.27}% 28
+\BOOKMARK [1][-]{section.34}{Gesch\344ftsarchitektur}{chapter.27}% 29
+\BOOKMARK [1][-]{section.35}{Informationssystemarchitektur}{chapter.27}% 30
+\BOOKMARK [2][-]{subsection.36}{Datenarchitektur}{section.35}% 31
+\BOOKMARK [2][-]{subsection.37}{Anwedungsarchitektur}{section.35}% 32
+\BOOKMARK [1][-]{section.38}{Technologieinfrastruktur}{chapter.27}% 33
+\BOOKMARK [0][-]{chapter.39}{Zusammenfassung}{}% 34
+\BOOKMARK [0][-]{chapter*.40}{Literaturverzeichnis}{}% 35
+\BOOKMARK [0][-]{chapter*.41}{Abbildungsverzeichnis}{}% 36

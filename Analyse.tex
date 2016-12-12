@@ -1,18 +1,69 @@
 \chapter{Analyse}
 
 \section{Einordnung des Kreditorenworkflows}
+Um die Intention der Neukonzeption verstehen und sie angemessen durchführen zu können, ist es zunächst wichtig, den Workflow der Kreditorenbuchhaltung im Unternehmen einordnen zu können. 
+Dieser Umstand ist analog zu den Anforderungen der ISO 9000 Reihe zu sehen, das zur Qualitätssicherung in Prozessen ein Verständnis von deren Abhängigkeiten und Wechselwirkungen vorgibt. 
+Auf diese Weise soll ersichtlich werden, welche Anforderungen gegenüber dem Workflow bestehen.
+
+\subsection{Prozessportfolio}
+
+\subsection{Prozesslandkarte}
+
+\subsection{Auswertung der Einordnung}
+
+
+
+
 
 \section{Ist-Aufnahme}
-
+Der Prozess wird in zwei sequentiellen Stufen betrachtet. 
+Im ersten Teil geht die Rechnung  ein und wird freigegeben.
+Im zweiten Teil wird die Rechnung gebucht und der Zahllauf vorbereitet.
 \subsection{Kreditorenworkflow Teil 1: Rechnungsfreigabe}
-
+Der erste Teil beginnt streng genommen mit der Kostenverursachung, auf die eine Kreditorenrechnung folgt. 
+Da die Kostenverursachung allerdings für den Workflow nicht weiter relevant ist, wird der Rechnungseingang als Ausgangspunkt des Prozesses und Auslöser einer Prozessinstanz betrachtet. 
 \subsubsection{Prozessablauf}
-
+Die eingehende Kreditorenrechnung wird innerhalb des Unternehmens an einen bestimmten Mitarbeiter der Finanzbuchhaltung gegeben.
+Dieser scannt nun die Rechnung ein, um das Original digital zu konservieren, was den ersten Schritt der Versionierung darstellt.
+Danach muss die Rechnung zur sachlichen Freigabe an den Kostenverursacher gegeben werden. 
+Dieser kann sich entweder ebenfalls in der Unternehmenszentrale befinden, oder in einer der Niederlassungen.
+Trifft ersteres zu, wird die Rechnung händisch zu der betreffenden Person verbracht. 
+Trifft letzteres zu, wird die Rechnung per E-Mail zu der betreffenden Person gesendet.
+Wird die Rechnung sachlich nicht freigegegeben, endet die Prozessinstanz.
+Wird die Rechnung sachlich freigegeben, wird der Beleg erneut gescannt und muss zur fachlichen Freigabe an den Bereichsverantwortlichen gegeben werden.
+Je nach örtlicher Distanz wird für die fachliche Freigabe analog der sachlichen Freigabe verfahren.
+Ggf. erfolgt ein Vermerk, dass die Rechnung an einen Kunden weiterzuberechnen ist.
+Nachdem die fachliche Freigabe erfolgt ist, wird die finale Version eingescannt.\\
+Damit liegen alle Freigaben vor und der Mitarbeiter ist zur Buchung berechtigt.
+\subsubsection{Prozessmodellierung}
+Der Prozess lässt sich soweit modellieren.
+Zu beachten sind dabei zwei Prozessschnittstellen. 
+Eine davon ist die zur Debitorenbuchhaltung, die bei einem Weiterberechnungsvermerk greift. 
+Diese wird modelliert, ist allerdings inhaltlich in diesem Rahmen nicht relevant.
+Die zweite Schnittstelle ist die Verbindung zum zweiten Teil des Workflows.\\
+Auf die Unterscheidung zwischen der internen Verbringung der Rechnung und der Versendung per Mail wird in dieser Modellierung verzichtet, da sie im Ablauf keine inhaltlich entscheidenden Unterschiede beinhaltet, sondern nur das Papieraufkommen erhöht.
+\\
+DAS MUSS ABER IN DEN ANHANG
 
 
 \subsection{Kreditorenworkflow Teil 2: Rechnungsbuchung}
-
+Im zweiten Teil werden zur Buchung bereits Bestands-EDV-Systeme benutzt.
 \subsubsection{Prozessablauf}
+Zur Buchung werden alle eingescannten Versionen inklusive des Originals verwendet.
+Zur Buchung wird der Beleg an Datev Rechnungswesen Pro übergeben.
+Das Feature der automatischen Zeichenerkennung erkennt dabei insbesondere die Rechnungsnummer, das Datum, den Saldo, die Kostenstelle und den Kostenträger.
+In Datev wird die Rechnung dem Kreditor und unter diesem wiederum der Rechnungsnummer zugeordnet.
+Damit ist die Rechnung in Datev verbucht.\\
+Die Rechnung muss anschließend noch gezahlt werden.
+Dazu wird ein Zahlungslauf über das eBanking-System gestartet.
+Für die Rechnung wird ein Zahlungsziel angegeben bzw. ggf. aus den Kreditorenstammdaten entnommen.
+Wird der Zahungslauf fällig, erhält der Mitarbeiter aus der Finanzbuchhaltung eine Meldung.
+Die fälligen Zahlungen werden nun zunächst durch den Mitarbeiter selbst geprüft.
+Anschließend wird der Zahlungslauf dem Vorstandsvorsitzenden in Schriftform zur Freigabe vorgelegt.
+Ist die Freigabe erfolgt, werden die Zahlungen im eBanking-System angelegt.
+Ein zweiter Mitarbeiter prüft die Freigabe durch den Vorstandsvorsitzenden und gibt die Zahlungen im eBanking-System frei.
+
+\subsubsection{Prozessmodellierung}
 
 
 
