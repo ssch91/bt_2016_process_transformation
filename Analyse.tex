@@ -24,19 +24,42 @@ Der erste Teil beginnt streng genommen mit der Kostenverursachung, auf die eine 
 Da die Kostenverursachung allerdings für den Workflow nicht weiter relevant ist, wird der Rechnungseingang als Ausgangspunkt des Prozesses und Auslöser einer Prozessinstanz betrachtet. 
 \subsubsection{Prozessablauf}
 Die eingehende Kreditorenrechnung wird innerhalb des Unternehmens an einen bestimmten Mitarbeiter der Finanzbuchhaltung gegeben.
-Dieser scannt nun die Rechnung ein, um das Original digital zu konservieren, was den ersten Schritt der Versionierung darstellt.
+Für die nachfolgenden Schritte gibt es zwei mögliche Szenarien.
+
+\paragraph{Fall 1: Kostenverursacher in Niederlassung}
+~\\ 
+In diesem Szenario befindet sich der Kostenverursacher nicht in der Unternehmenszentrale, also in räumlicher Distanz zur Finanzbuchhaltung.
+Der Mitarbeiter scannt die Rechnung ein, um das Original digital zu konservieren, was den ersten Schritt der Versionierung darstellt.
 Danach muss die Rechnung zur sachlichen Freigabe an den Kostenverursacher gegeben werden. 
-Dieser kann sich entweder ebenfalls in der Unternehmenszentrale befinden, oder in einer der Niederlassungen.
-Trifft ersteres zu, wird die Rechnung händisch zu der betreffenden Person verbracht. 
-Trifft letzteres zu, wird die Rechnung per E-Mail zu der betreffenden Person gesendet.
 Wird die Rechnung sachlich nicht freigegegeben, endet die Prozessinstanz.
-Wird die Rechnung sachlich freigegeben, wird der Beleg erneut gescannt und muss zur fachlichen Freigabe an den Bereichsverantwortlichen gegeben werden.
-Je nach örtlicher Distanz wird für die fachliche Freigabe analog der sachlichen Freigabe verfahren.
-Ggf. erfolgt ein Vermerk, dass die Rechnung an einen Kunden weiterzuberechnen ist.
+Nachfolgend müssen vom Mitarbeiter der Finanzbuchhaltung die Gründe dafür eruiert und ggf. eine korrekte Rechnung nachgefordert werden.
+Wird die Rechnung sachlich freigegeben, druckt der freigebende Mitarbeiter dazu die Rechnung aus, unterschreibt und scannt wieder.
+Das Resultat sendet er dem Mitarbeiter der Finanzbuchhaltung.
+Dieser druckt wiederum das Resultat aus.
+Danach muss die fachliche Freigabe erfolgen.
+Dazu verbringt der Mitarbeiter die Original-Rechnung und den Ausdruck mit der sachlichen Freizeichnung an den verantwortlichen Bereichsleiter.
+Dieser lehnt ggf. die Rechnung ab, dazu wird wie im Fall der sachlichen Freigabe verfahren.
+Im Regelfall gibt er mit seiner Unterschrift die Rechnung fachlich frei.
+Ggf. erfolgt ein Vermerk, dass die Rechnung an einen Kunden weiterzuberechnen ist. 
 Nachdem die fachliche Freigabe erfolgt ist, wird die finale Version eingescannt.\\
 Damit liegen alle Freigaben vor und der Mitarbeiter ist zur Buchung berechtigt.
+
+\paragraph{Fall 2: Kostenverursacher in Unternehmenszentrale}
+~\\
+In diesem Szenario befindet sich der Kostenverursacher in der Unternehmenszentrale, also in für die Mitarbeiter der Finanzbuchhaltung erreichbarer Nähe.
+Zunächst muss ebenso die sachliche Freigabe erfolgen.
+Dazu verbringt der Mitarbeiter der Finanzbuchhaltung die Original-Rechnung an den Kostenverursacher.
+Für eine nicht erfolgte Freigabe wird wie in Fall 1 verfahren.
+Bei erfolgter sachlicher Freigabe hat ebenso als nächtes die fachliche Freigabe zu erfolgen.
+Wie in Fall 1 wird dazu die Original-Rechnung, diesmal allerdings mit sachlicher Freigabe an den Bereichsverantwortlichen verbracht.
+Auch an dieser Stelle wird wie in Fall 1 für Freigabe oder Nicht-Freigabe verfahren.
+Ggf. erfolgt auch hier ein Vermerk, der die Weiterberechnung anweist.
+Im Regelfall gibt er mit seiner Unterschrift die Rechnung fachlich frei.
+Abschließend wird die vollständig freigezeichnete Version eingescannt.
+Damit liegen alle Freigaben vor und der Mitarbeiter ist zur Buchung berechtigt.
+
 \subsubsection{Prozessmodellierung}
-Der Prozess lässt sich soweit modellieren.
+Der Prozess lässt sich soweit modellieren. 
 Zu beachten sind dabei zwei Prozessschnittstellen. 
 Eine davon ist die zur Debitorenbuchhaltung, die bei einem Weiterberechnungsvermerk greift. 
 Diese wird modelliert, ist allerdings inhaltlich in diesem Rahmen nicht relevant.
@@ -51,25 +74,89 @@ Im zweiten Teil werden zur Buchung bereits Bestands-EDV-Systeme benutzt.
 \subsubsection{Prozessablauf}
 Zur Buchung werden alle eingescannten Versionen inklusive des Originals verwendet.
 Zur Buchung wird der Beleg an Datev Rechnungswesen Pro übergeben.
-Das Feature der automatischen Zeichenerkennung erkennt dabei insbesondere die Rechnungsnummer, das Datum, den Saldo, die Kostenstelle und den Kostenträger.
+Das Feature der automatischen Zeichenerkennung erkennt dabei insbesondere die Rechnungsnummer, das Datum, den Saldo und die Steuer.
+Die Kostenstelle, sowie der Kostenträger müssen durch den Mitarbeiter angegeben werden.
 In Datev wird die Rechnung dem Kreditor und unter diesem wiederum der Rechnungsnummer zugeordnet.
 Damit ist die Rechnung in Datev verbucht.\\
 Die Rechnung muss anschließend noch gezahlt werden.
-Dazu wird ein Zahlungslauf über das eBanking-System gestartet.
-Für die Rechnung wird ein Zahlungsziel angegeben bzw. ggf. aus den Kreditorenstammdaten entnommen.
-Wird der Zahungslauf fällig, erhält der Mitarbeiter aus der Finanzbuchhaltung eine Meldung.
+Dazu wird ein Zahllauf in Datev angelegt.
+In diesem erscheinen die fälligen Belege. 
+Die Fälligkeit ergibt sich hierbei aus Rechnungsdatum und Zahlungsziel, welches aus den Kreditorenstammdaten entnommen wird.
 Die fälligen Zahlungen werden nun zunächst durch den Mitarbeiter selbst geprüft.
-Anschließend wird der Zahlungslauf dem Vorstandsvorsitzenden in Schriftform zur Freigabe vorgelegt.
-Ist die Freigabe erfolgt, werden die Zahlungen im eBanking-System angelegt.
+Anschließend wird der Zahllauf dem Vorstandsvorsitzenden in Schriftform zur Freigabe vorgelegt.
+Ist die Freigabe erfolgt, werden die in einer Datei an das eBanking-System gegeben.
 Ein zweiter Mitarbeiter prüft die Freigabe durch den Vorstandsvorsitzenden und gibt die Zahlungen im eBanking-System frei.
-
+Das eBanking-System übermittelt daraufhin die Zahlungen an die Bank, wo die Zahlung durchgeführt wird.
 \subsubsection{Prozessmodellierung}
+
+Auch dieser Teilprozess lässt sich mit dem gegebenen Ablauf modellieren. 
+Die Durchführung der Zahlung kann als transparent betrachtet werden, da sie vollautomatisch durchgeführt wird.
 
 
 
 
 
 \section{Problemanalyse}
+Die nun folgende Problemanalyse ist Ausgangspunkt für die Neukonzeption.
 
-\section{Performance Measurement}
-\subsection{Key Performance Indicators}
+\subsection{Methodik der Problemanalyse}
+Zur Identifikation von problematischen Aspekten wird zunächst die argumentative Grundlage geschaffen, diese zweifelsfrei ermitteln zu können.
+ dienen einerseits die Prozessbeschreibungen bzw. Prozessmodelle und andererseits die Interviews, die 
+\subsubsection{Stakeholderanalyse}
+Die Stakeholder des Prozesses ergeben sich aus den Akteuren, die in der Prozessbeschreibung bzw. der Prozessmodellierung als Beteiligte auftreten.\\
+Das sind:
+
+
+\begin{enumerate}
+\item{Mitarbeiter der Finanzbuchhaltung}
+\\ Speziell der Mitarbeiter der Finanzbuchhaltung, der für die Kreditorenbuchhaltung zuständig ist, ist in diesem Rahmen aktiv. 
+\\ Ein weiterer Akteur aus diesem Bereich ist der (faktisch wechselnde) Mitarbeiter, der den Zahllauf nach dem Vieraugen-Prinzip freigibt. 
+Dieser ist jedoch nur marginal beteiligt.
+\\ Ein Stakholder, der nicht maßgeblich in diesem Prozess agiert, ist der Leiter der Finanzbuchhaltung, der die Prozesse der Abteilung plant, deren Implementation steuert und den Ablauf kontrolliert.
+
+\item{Kostenstellenverantwortliche}
+\\ Die Kostenverursacher sind Mitarbeiter, die zur Kostenverursachung befugt sind. 
+Faktisch sind dies Kostenstellenverantwortliche, die regelmäßige oder abwicklungsbezogene Kosten verursachen und damit Kreditorenrechnungen auslösen. 
+Durch sie erfolgt die sachliche Freigabe.
+
+\item{EDV-Abteilung}
+\\ Da der Prozess teilweise technologiegestützt abläuft, ist die Abteilung der Informationstechnologie, wenn auch nicht aktiv an Prozessinstanzen beteiligt, als Stakeholder auszumachen. 
+
+\item{Bereichsverantwortliche}
+\\ Die Mitarbeiter, die die fachliche Freigabe erteilen dürfen, sind Bereichsleiter. 
+Konkret lässt sich dies zum Zeitpunkt der Erstellung dieser Arbeit auf drei Personen konkretisieren. 
+Von diesen befinden sich zwei im Vorstand, der dritte ist der Bereichsleiter Informationstechnologie.
+
+\end{enumerate}
+
+Aus dieser Liste lassen sich konkrete Personen ableiten, deren Erfahrung mit dem Prozess zur Problemidentifikation dienen kann. 
+Mit diesen werden Interviews geführt, um eine empirische Grundlage zu schaffen.
+
+Es ergeben sich:
+
+\begin{enumerate}
+\item{Mitarbeiter der (Kreditoren-)Buchhaltung}
+\item{Leiter der Finanzbuchhaltung}
+\item{Ein Bereichsverantwortlicher}
+\item{Leiter der Informationstechnologie}
+\end{enumerate}
+
+
+\subsubsection{Beschreibung und Modellierung der Teilprozesse}
+
+Auch erarbeiteten Abläufe der Teilprozesse dienen als Grundlage der Analyse.
+
+
+\subsection{Fehler}
+Eine von zwei Möglichkeiten, die im Zusammenhang mit dem Prozess problematisch sind, sind fehlerhafte Prozessinstanzen. Als fehlerhaft wird eine Prozessinstanz betrachtet, wenn diese nicht wie beschrieben abläuft, also der Modellierung nicht folgt.
+\subsubsection{Fehlerarten}
+
+
+\subsubsection{Fehlerquellen}
+
+
+\subsection{Performance}
+Die zweite Möglichkeit für eine als problematisch wahrgenommene Prozessinstanz ist deren mangelhafte Performance.
+
+\subsubsection{Key Performance Indicators}
+
