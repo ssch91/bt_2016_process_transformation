@@ -1,26 +1,44 @@
 \chapter{Analyse}
 
 \section{Einordnung des Kreditorenworkflows}
-Um die Intention der Neukonzeption verstehen und sie angemessen durchführen zu können, ist es zunächst wichtig, den Workflow der Kreditorenbuchhaltung im Unternehmen einordnen zu können. 
-Dieser Umstand ist analog zu den Anforderungen der ISO 9000 Reihe zu sehen, das zur Qualitätssicherung in Prozessen ein Verständnis von deren Abhängigkeiten und Wechselwirkungen vorgibt. 
-Auf diese Weise soll ersichtlich werden, welche Anforderungen gegenüber dem Workflow bestehen.
+Um die Intention der Neukonzeption verstehen und sie angemessen durchführen zu können, ist es zunächst wichtig, den Workflow der Kreditorenbuchhaltung im Unternehmen einordnen zu können, um Verständnis für die Anforderungen zu bekommen. 
+Dieser Umstand ist analog zu den Anforderungen der ISO 9000 Reihe zu sehen, das zur Qualitätssicherung in Prozessen ein Verständnis von deren Abhängigkeiten und Wechselwirkungen vorgibt. \\
+Die Einordnung in das Prozessportfolio kann z.B. auf Grundlage von Six Sigma erfolgen.
+Dazu werden die strategische Relevanz (bzw. Bedeutung für den Geschäftserfolg) und der Verbesserungsbedarf gegenübergestellt. 
+Diese Gegenüberstellung erfolgt qualitativ und auf Basis der Einschätzung von Stakeholdern.
+Je  Dimension sind mehrere Kriterien (Strategische Bedeutung: Marktrelevanz, Geschäftskritikalität, Marktfähigkeit; Verbesserungsfähigkeit: Technologische Unterstützung, Fehleranfälligkeit, Performance) zu bewerten. 
+Das Mittel aller Einschätzungen ergibt die Positionierung im Portfolio-Diagramm.
 
-\subsection{Prozessportfolio}
-Die ISO 9000 fordert für
-Die Einordnung ein ein Prozessportfolio gemäß Six Sigma.
+\begin{figure}[!htb]
+\centering
+\includegraphics[height=60mm]{images/portfolio}
+\caption{Portfolioeinordnung des Kreditorenworkflows}
+\label{Portfolioeinordnung des Kreditorenworkflows}
+\end{figure}
+\footnotetext{Quelle: Autor}
+
+Es ergibt sich ein hohes Verbesserungspotential, dessen Erläuterung Teil dieses Kapitels ist.
+Die ebenfalls hohe strategische Relevanz resultiert aus zwei Rahmenbedingungen. 
+Zum einen ist die Rechnungslegung gegenüber dem Gesetzgeber verpflichtend und ist daher für den Geschäftsbetrieb unerlässlich. Dieser Umstand alleine, reicht allerdings nicht aus. 
+Entscheidend ist, dass die Kreditorenbuchhaltung auch als Service von der \firma angeboten wird.
+Das bedeutet konkret, dass Firmen (insbesondere Beteiligungsfirmen, also Bestandteile der GLC Group) die Kreditorenbuchhaltung an die \firma outsourcen können. 
+Dementsprechend wird in dem Prozess auch Service gegenüber Kunden generiert.\\
+Ordnet man nun diesen Prozess in eine Prozesslandkarte, wie im Rahmen von ISO 9000 beispielsweise üblich, ein, zeigt sich, dass der Prozess nicht ausschließlich, wie bei Inhalten der Finanzbuchhaltung ansonsten üblich, als Unterstützungsprozess einzustufen ist.
 
 
-
-\subsection{Prozesslandkarte}
-$\rightarrow$ Nicht klassischer Unterstützungsprozess\\
-$\rightarrow$ Eher Kernprozess
-
-
-
-\subsection{Auswertung der Einordnung}
-
+\begin{figure}[!htb]
+\centering
+\includegraphics[height=60mm]{images/prozesslandkarte}
+\caption{Portfolioeinordnung des Kreditorenworkflows}
+\label{Portfolioeinordnung des Kreditorenworkflows}
+\end{figure}
+\footnotetext{Quelle: Autor}
 
 
+Vielmehr zeigt sich, dass, je nach Prozessinstanz, die Einordnung zwischen Kernprozess (bzw. Leistungsprozess) und Unterstützungsprozess (bzw. Supportprozess) pendelt. 
+Mehrheitlich betreffen die Prozessinstanzen interne Rechnungen, welche als Supportprozess eingeordnet werden. 
+Hinsichtlich Kundenrechnungen, welche eher Leistungsprozessinstanzen darstellen, ergeben sich jedoch teilweise differierende Anforderungen an den Prozess.
+Dieser Umstand wird im weiteren Verlauf berücksichtigt.
 
 
 \section{Ist-Aufnahme}
@@ -76,6 +94,13 @@ Auf die Unterscheidung zwischen der internen Verbringung der Rechnung und der Ve
 \\
 DAS MUSS ABER IN DEN ANHANG
 
+\begin{figure}[!htb]
+\centering
+\includegraphics[height=75mm]{images/prozess_ist_simpel}
+\caption{Der erste Teilprozess im Ist-Zustand}
+\label{Teilprozess 1 im Ist-Zustand, BPMN simpel}
+\end{figure}
+\footnotetext{Quelle: Autor}
 
 \subsection{Kreditorenworkflow Teil 2: Rechnungsbuchung}
 Im zweiten Teil werden zur Buchung bereits Bestands-EDV-Systeme benutzt.
@@ -86,7 +111,7 @@ Das Feature der automatischen Zeichenerkennung erkennt dabei insbesondere die Re
 Die Kostenstelle, sowie der Kostenträger müssen durch den Mitarbeiter angegeben werden.
 In Datev wird die Rechnung dem Kreditor und unter diesem wiederum der Rechnungsnummer zugeordnet.
 Damit ist die Rechnung in Datev verbucht.\\
-Die Rechnung muss anschließend noch gezahlt werden.
+Die Rechnung muss anschließend noch gezahlt werden.\\
 Dazu wird ein Zahllauf in Datev angelegt.
 In diesem erscheinen die fälligen Belege. 
 Die Fälligkeit ergibt sich hierbei aus Rechnungsdatum und Zahlungsziel, welches aus den Kreditorenstammdaten entnommen wird.
@@ -101,7 +126,14 @@ Auch dieser Teilprozess lässt sich mit dem gegebenen Ablauf modellieren.
 Die Durchführung der Zahlung kann als transparent betrachtet werden, da sie vollautomatisch durchgeführt wird.
 
 
-
+\begin{figure}[!htb]
+\centering
+\includegraphics[height=90mm]{images/prozess_ist_buchung}
+\caption{Der zweite Teilprozess im Ist-Zustand}
+\label{Teilprozess 2 im Ist-Zustand, BPMN}
+\end{figure}
+\footnotetext{Quelle: Autor}
+\newpage
 
 
 \section{Problemanalyse}
