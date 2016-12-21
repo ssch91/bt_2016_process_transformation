@@ -1,3 +1,16 @@
 \begin{thebibliography}{}
 
+\bibitem[TOG, 2011]{TOGAF}
+ (2011).
+\newblock {\em TOGAF Version 9.1}.
+\newblock TOGAF series. {Van Haren Publishing}, Zaltbommel, 1st ed..
+  Auf\kern0pt lage.
+
+\bibitem[Panel und of~Naval~Research, 1956]{united1956symposium}
+Panel, U. S. N. M. C.~A. und of~Naval~Research, U. S.~O. (1956).
+\newblock {\em Symposium on Advanced Programming Methods for Digital Computers:
+  Washington, D.C., June 28, 29, 1956}.
+\newblock ONR symposium report. Office of Naval Research, Department of the
+  Navy.
+
 \end{thebibliography}

@@ -6,10 +6,13 @@
 %\usepackage[ansinew]{inputenc}
 \usepackage{calc}
 \usepackage{graphicx}
+\usepackage[table,xcdraw]{xcolor}
 \usepackage{tabularx}
 \usepackage{nameref}
+\usepackage{afterpage}
 %\usepackage{floatflt}
 \usepackage{listings}
+\usepackage{wrapfig}
 \usepackage{amsmath, amsthm, amssymb}
 \usepackage{mathtools}
 %\usepackage{longtable} %Support for large tables
@@ -24,7 +27,16 @@
 \usepackage{textcomp}
 \usepackage{setspace} % Achtung: unterhalb von \begin{document} wird der Zeilenabstand variabler gesetzt (1.5 absoluter MAX - Wert!!!)
 \usepackage{breakcites} % Bricht zu lange Zitierungen im Text um (vorallem benötigt by apalike,chicago, ....)
+\usepackage{titlesec}
 
+
+% decrease vspace on chapter page
+
+
+
+\titleformat{\chapter}{\normalfont \Large \bfseries }{ \thechapter}{20pt}{\LARGE\bfseries}
+
+\titlespacing*{\chapter}{0pt}{-10pt}{20pt}
 
 %Set page layout
 \geometry{verbose,a4paper,left=3cm,top=2.5cm+\headheight+\headsep,right=2.5cm,bottom=2.5cm+\footskip,pdftex}
@@ -113,7 +125,7 @@
 \begin{flushleft}\end{flushleft}
 
 \input{zusammenfassung}
-
+\input{Anhang}
 %\input{results}
 %\input{conclusions}
 
@@ -131,6 +143,7 @@
 %List of figures
 \clearpage
 \listoffigures
+
 
 %Appendices
 %\input{appendices}

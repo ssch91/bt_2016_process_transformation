@@ -1,41 +1,44 @@
 \BOOKMARK [0][-]{chapter.2}{Einleitung}{}% 1
 \BOOKMARK [1][-]{section.3}{Motivation}{chapter.2}% 2
-\BOOKMARK [1][-]{section.4}{Methodisches Vorgehen}{chapter.2}% 3
-\BOOKMARK [2][-]{subsection.5}{Methodenauswahl}{section.4}% 4
-\BOOKMARK [2][-]{subsection.9}{Teil I: Analyse}{section.4}% 5
-\BOOKMARK [2][-]{subsection.10}{Teil II: Neukonzeption}{section.4}% 6
-\BOOKMARK [0][-]{chapter.11}{Analyse}{}% 7
-\BOOKMARK [1][-]{section.12}{Einordnung des Kreditorenworkflows}{chapter.11}% 8
-\BOOKMARK [1][-]{section.15}{Ist-Aufnahme}{chapter.11}% 9
-\BOOKMARK [2][-]{subsection.16}{Kreditorenworkflow Teil 1: Rechnungsfreigabe}{section.15}% 10
-\BOOKMARK [3][-]{subsubsection.17}{Prozessablauf}{subsection.16}% 11
-\BOOKMARK [4][-]{paragraph.18}{Fall 1: Kostenverursacher in Niederlassung}{subsubsection.17}% 12
-\BOOKMARK [4][-]{paragraph.19}{Fall 2: Kostenverursacher in Unternehmenszentrale}{subsubsection.17}% 13
-\BOOKMARK [3][-]{subsubsection.20}{Prozessmodellierung}{subsection.16}% 14
-\BOOKMARK [2][-]{subsection.22}{Kreditorenworkflow Teil 2: Rechnungsbuchung}{section.15}% 15
-\BOOKMARK [3][-]{subsubsection.23}{Prozessablauf}{subsection.22}% 16
-\BOOKMARK [3][-]{subsubsection.24}{Prozessmodellierung}{subsection.22}% 17
-\BOOKMARK [1][-]{section.26}{Problemanalyse}{chapter.11}% 18
-\BOOKMARK [2][-]{subsection.27}{Methodik der Problemanalyse}{section.26}% 19
-\BOOKMARK [3][-]{subsubsection.28}{Stakeholderanalyse}{subsection.27}% 20
-\BOOKMARK [3][-]{subsubsection.37}{Beschreibung und Modellierung der Teilprozesse}{subsection.27}% 21
-\BOOKMARK [2][-]{subsection.38}{Fehler}{section.26}% 22
-\BOOKMARK [3][-]{subsubsection.39}{Fehlerarten}{subsection.38}% 23
-\BOOKMARK [3][-]{subsubsection.42}{Fehlerquellen}{subsection.38}% 24
-\BOOKMARK [2][-]{subsection.43}{Performance}{section.26}% 25
-\BOOKMARK [3][-]{subsubsection.44}{Key Performance Indicators}{subsection.43}% 26
-\BOOKMARK [0][-]{chapter.47}{Neukonzeption}{}% 27
-\BOOKMARK [1][-]{section.48}{ADM als Methode}{chapter.47}% 28
-\BOOKMARK [1][-]{section.53}{Preliminary}{chapter.47}% 29
-\BOOKMARK [2][-]{subsection.54}{Anforderungsanalyse}{section.53}% 30
-\BOOKMARK [3][-]{subsubsection.55}{Interne Anforderungen}{subsection.54}% 31
-\BOOKMARK [3][-]{subsubsection.56}{Gesetzliche Anforderungen}{subsection.54}% 32
-\BOOKMARK [1][-]{section.57}{Phase A: Architecture Vision}{chapter.47}% 33
-\BOOKMARK [1][-]{section.58}{Phase B: Business Architecutre}{chapter.47}% 34
-\BOOKMARK [1][-]{section.59}{Phase C: Information Systems Architectures}{chapter.47}% 35
-\BOOKMARK [2][-]{subsection.60}{Data Architecture}{section.59}% 36
-\BOOKMARK [2][-]{subsection.61}{Application Architecture}{section.59}% 37
-\BOOKMARK [1][-]{section.62}{Technologieinfrastruktur}{chapter.47}% 38
-\BOOKMARK [0][-]{chapter.63}{Zusammenfassung}{}% 39
-\BOOKMARK [0][-]{chapter*.64}{Literaturverzeichnis}{}% 40
-\BOOKMARK [0][-]{chapter*.65}{Abbildungsverzeichnis}{}% 41
+\BOOKMARK [1][-]{section.5}{Methodisches Vorgehen}{chapter.2}% 3
+\BOOKMARK [2][-]{subsection.6}{Methodenauswahl}{section.5}% 4
+\BOOKMARK [2][-]{subsection.10}{Teil I: Analyse}{section.5}% 5
+\BOOKMARK [2][-]{subsection.11}{Teil II: Neukonzeption}{section.5}% 6
+\BOOKMARK [0][-]{chapter.12}{Analyse}{}% 7
+\BOOKMARK [1][-]{section.13}{Einordnung des Kreditorenworkflows}{chapter.12}% 8
+\BOOKMARK [1][-]{section.21}{Ist-Aufnahme}{chapter.12}% 9
+\BOOKMARK [2][-]{subsection.22}{Kreditorenworkflow Teil 1: Rechnungsfreigabe}{section.21}% 10
+\BOOKMARK [3][-]{subsubsection.23}{Prozessablauf}{subsection.22}% 11
+\BOOKMARK [4][-]{paragraph.24}{Fall 1: Kostenverursacher in Niederlassung}{subsubsection.23}% 12
+\BOOKMARK [4][-]{paragraph.25}{Fall 2: Kostenverursacher in Unternehmenszentrale}{subsubsection.23}% 13
+\BOOKMARK [3][-]{subsubsection.26}{Prozessmodellierung}{subsection.22}% 14
+\BOOKMARK [2][-]{subsection.30}{Kreditorenworkflow Teil 2: Rechnungsbuchung}{section.21}% 15
+\BOOKMARK [3][-]{subsubsection.31}{Prozessablauf}{subsection.30}% 16
+\BOOKMARK [3][-]{subsubsection.32}{Prozessmodellierung}{subsection.30}% 17
+\BOOKMARK [1][-]{section.36}{Problemanalyse}{chapter.12}% 18
+\BOOKMARK [2][-]{subsection.37}{Methodik der Problemanalyse}{section.36}% 19
+\BOOKMARK [2][-]{subsection.38}{Stakeholderanalyse}{section.36}% 20
+\BOOKMARK [2][-]{subsection.47}{Interviewkonzeption}{section.36}% 21
+\BOOKMARK [2][-]{subsection.49}{Auswertung Interviews}{section.36}% 22
+\BOOKMARK [3][-]{subsubsection.50}{Fehler}{subsection.49}% 23
+\BOOKMARK [4][-]{paragraph.51}{Fehlerarten}{subsubsection.50}% 24
+\BOOKMARK [4][-]{paragraph.54}{Fehlerquellen}{subsubsection.50}% 25
+\BOOKMARK [3][-]{subsubsection.55}{Performance}{subsection.49}% 26
+\BOOKMARK [4][-]{paragraph.56}{Key Performance Indicators}{subsubsection.55}% 27
+\BOOKMARK [2][-]{subsection.59}{Auswertung des Prozessablaufs}{section.36}% 28
+\BOOKMARK [0][-]{chapter.60}{Neukonzeption}{}% 29
+\BOOKMARK [1][-]{section.61}{ADM als Methode}{chapter.60}% 30
+\BOOKMARK [1][-]{section.69}{Preliminary}{chapter.60}% 31
+\BOOKMARK [2][-]{subsection.70}{Anforderungsanalyse}{section.69}% 32
+\BOOKMARK [3][-]{subsubsection.71}{Interne Anforderungen}{subsection.70}% 33
+\BOOKMARK [3][-]{subsubsection.72}{Gesetzliche Anforderungen}{subsection.70}% 34
+\BOOKMARK [1][-]{section.73}{Phase A: Architecture Vision}{chapter.60}% 35
+\BOOKMARK [1][-]{section.74}{Phase B: Business Architecutre}{chapter.60}% 36
+\BOOKMARK [1][-]{section.75}{Phase C: Information Systems Architectures}{chapter.60}% 37
+\BOOKMARK [2][-]{subsection.76}{Data Architecture}{section.75}% 38
+\BOOKMARK [2][-]{subsection.77}{Application Architecture}{section.75}% 39
+\BOOKMARK [1][-]{section.78}{Technologieinfrastruktur}{chapter.60}% 40
+\BOOKMARK [0][-]{chapter.79}{Zusammenfassung}{}% 41
+\BOOKMARK [0][-]{chapter.80}{Anhang}{}% 42
+\BOOKMARK [0][-]{chapter*.81}{Literaturverzeichnis}{}% 43
+\BOOKMARK [0][-]{chapter*.82}{Abbildungsverzeichnis}{}% 44

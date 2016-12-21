@@ -1,42 +1,45 @@
 \select@language {ngerman}
-\contentsline {chapter}{\numberline {I}Einleitung}{5}{chapter.2}
-\contentsline {section}{\numberline {1}Motivation}{5}{section.3}
-\contentsline {section}{\numberline {2}Methodisches Vorgehen}{6}{section.4}
-\contentsline {subsection}{\numberline {2.1}Methodenauswahl}{6}{subsection.5}
-\contentsline {subsection}{\numberline {2.2}Teil I: Analyse}{7}{subsection.9}
-\contentsline {subsection}{\numberline {2.3}Teil II: Neukonzeption}{7}{subsection.10}
-\contentsline {chapter}{\numberline {II}Analyse}{9}{chapter.11}
-\contentsline {section}{\numberline {1}Einordnung des Kreditorenworkflows}{9}{section.12}
-\contentsline {section}{\numberline {2}Ist-Aufnahme}{11}{section.15}
-\contentsline {subsection}{\numberline {2.1}Kreditorenworkflow Teil 1: Rechnungsfreigabe}{11}{subsection.16}
-\contentsline {subsubsection}{\numberline {2.1.1}Prozessablauf}{11}{subsubsection.17}
-\contentsline {paragraph}{\numberline {2.1.1.1}Fall 1: Kostenverursacher in Niederlassung}{11}{paragraph.18}
-\contentsline {paragraph}{\numberline {2.1.1.2}Fall 2: Kostenverursacher in Unternehmenszentrale}{12}{paragraph.19}
-\contentsline {subsubsection}{\numberline {2.1.2}Prozessmodellierung}{13}{subsubsection.20}
-\contentsline {subsection}{\numberline {2.2}Kreditorenworkflow Teil 2: Rechnungsbuchung}{13}{subsection.22}
-\contentsline {subsubsection}{\numberline {2.2.1}Prozessablauf}{14}{subsubsection.23}
-\contentsline {subsubsection}{\numberline {2.2.2}Prozessmodellierung}{14}{subsubsection.24}
-\contentsline {section}{\numberline {3}Problemanalyse}{15}{section.26}
-\contentsline {subsection}{\numberline {3.1}Methodik der Problemanalyse}{15}{subsection.27}
-\contentsline {subsubsection}{\numberline {3.1.1}Stakeholderanalyse}{15}{subsubsection.28}
-\contentsline {subsubsection}{\numberline {3.1.2}Beschreibung und Modellierung der Teilprozesse}{17}{subsubsection.37}
-\contentsline {subsection}{\numberline {3.2}Fehler}{17}{subsection.38}
-\contentsline {subsubsection}{\numberline {3.2.1}Fehlerarten}{17}{subsubsection.39}
-\contentsline {subsubsection}{\numberline {3.2.2}Fehlerquellen}{18}{subsubsection.42}
-\contentsline {subsection}{\numberline {3.3}Performance}{18}{subsection.43}
-\contentsline {subsubsection}{\numberline {3.3.1}Key Performance Indicators}{19}{subsubsection.44}
-\contentsline {chapter}{\numberline {III}Neukonzeption}{20}{chapter.47}
-\contentsline {section}{\numberline {1}ADM als Methode}{20}{section.48}
-\contentsline {section}{\numberline {2}Preliminary}{21}{section.53}
-\contentsline {subsection}{\numberline {2.1}Anforderungsanalyse}{21}{subsection.54}
-\contentsline {subsubsection}{\numberline {2.1.1}Interne Anforderungen}{21}{subsubsection.55}
-\contentsline {subsubsection}{\numberline {2.1.2}Gesetzliche Anforderungen}{21}{subsubsection.56}
-\contentsline {section}{\numberline {3}Phase A: Architecture Vision}{21}{section.57}
-\contentsline {section}{\numberline {4}Phase B: Business Architecutre}{22}{section.58}
-\contentsline {section}{\numberline {5}Phase C: Information Systems Architectures}{22}{section.59}
-\contentsline {subsection}{\numberline {5.1}Data Architecture}{22}{subsection.60}
-\contentsline {subsection}{\numberline {5.2}Application Architecture}{22}{subsection.61}
-\contentsline {section}{\numberline {6}Technologieinfrastruktur}{22}{section.62}
-\contentsline {chapter}{\numberline {IV}Zusammenfassung}{23}{chapter.63}
-\contentsline {chapter}{Literaturverzeichnis}{24}{chapter*.64}
-\contentsline {chapter}{Abbildungsverzeichnis}{25}{chapter*.65}
+\contentsline {chapter}{\numberline {I}Einleitung}{4}{chapter.2}
+\contentsline {section}{\numberline {1}Motivation}{4}{section.3}
+\contentsline {section}{\numberline {2}Methodisches Vorgehen}{5}{section.5}
+\contentsline {subsection}{\numberline {2.1}Methodenauswahl}{5}{subsection.6}
+\contentsline {subsection}{\numberline {2.2}Teil I: Analyse}{6}{subsection.10}
+\contentsline {subsection}{\numberline {2.3}Teil II: Neukonzeption}{6}{subsection.11}
+\contentsline {chapter}{\numberline {II}Analyse}{8}{chapter.12}
+\contentsline {section}{\numberline {1}Einordnung des Kreditorenworkflows}{8}{section.13}
+\contentsline {section}{\numberline {2}Ist-Aufnahme}{10}{section.21}
+\contentsline {subsection}{\numberline {2.1}Kreditorenworkflow Teil 1: Rechnungsfreigabe}{10}{subsection.22}
+\contentsline {subsubsection}{\numberline {2.1.1}Prozessablauf}{10}{subsubsection.23}
+\contentsline {paragraph}{\numberline {2.1.1.1}Fall 1: Kostenverursacher in Niederlassung}{10}{paragraph.24}
+\contentsline {paragraph}{\numberline {2.1.1.2}Fall 2: Kostenverursacher in Unternehmenszentrale}{11}{paragraph.25}
+\contentsline {subsubsection}{\numberline {2.1.2}Prozessmodellierung}{12}{subsubsection.26}
+\contentsline {subsection}{\numberline {2.2}Kreditorenworkflow Teil 2: Rechnungsbuchung}{13}{subsection.30}
+\contentsline {subsubsection}{\numberline {2.2.1}Prozessablauf}{13}{subsubsection.31}
+\contentsline {subsubsection}{\numberline {2.2.2}Prozessmodellierung}{14}{subsubsection.32}
+\contentsline {section}{\numberline {3}Problemanalyse}{15}{section.36}
+\contentsline {subsection}{\numberline {3.1}Methodik der Problemanalyse}{15}{subsection.37}
+\contentsline {subsection}{\numberline {3.2}Stakeholderanalyse}{15}{subsection.38}
+\contentsline {subsection}{\numberline {3.3}Interviewkonzeption}{17}{subsection.47}
+\contentsline {subsection}{\numberline {3.4}Auswertung Interviews}{17}{subsection.49}
+\contentsline {subsubsection}{\numberline {3.4.1}Fehler}{17}{subsubsection.50}
+\contentsline {paragraph}{\numberline {3.4.1.1}Fehlerarten}{17}{paragraph.51}
+\contentsline {paragraph}{\numberline {3.4.1.2}Fehlerquellen}{18}{paragraph.54}
+\contentsline {subsubsection}{\numberline {3.4.2}Performance}{18}{subsubsection.55}
+\contentsline {paragraph}{\numberline {3.4.2.1}Key Performance Indicators}{19}{paragraph.56}
+\contentsline {subsection}{\numberline {3.5}Auswertung des Prozessablaufs}{19}{subsection.59}
+\contentsline {chapter}{\numberline {III}Neukonzeption}{21}{chapter.60}
+\contentsline {section}{\numberline {1}ADM als Methode}{21}{section.61}
+\contentsline {section}{\numberline {2}Preliminary}{23}{section.69}
+\contentsline {subsection}{\numberline {2.1}Anforderungsanalyse}{23}{subsection.70}
+\contentsline {subsubsection}{\numberline {2.1.1}Interne Anforderungen}{23}{subsubsection.71}
+\contentsline {subsubsection}{\numberline {2.1.2}Gesetzliche Anforderungen}{23}{subsubsection.72}
+\contentsline {section}{\numberline {3}Phase A: Architecture Vision}{23}{section.73}
+\contentsline {section}{\numberline {4}Phase B: Business Architecutre}{23}{section.74}
+\contentsline {section}{\numberline {5}Phase C: Information Systems Architectures}{23}{section.75}
+\contentsline {subsection}{\numberline {5.1}Data Architecture}{23}{subsection.76}
+\contentsline {subsection}{\numberline {5.2}Application Architecture}{23}{subsection.77}
+\contentsline {section}{\numberline {6}Technologieinfrastruktur}{23}{section.78}
+\contentsline {chapter}{\numberline {IV}Zusammenfassung}{24}{chapter.79}
+\contentsline {chapter}{\numberline {V}Anhang}{25}{chapter.80}
+\contentsline {chapter}{Literaturverzeichnis}{26}{chapter*.81}
+\contentsline {chapter}{Abbildungsverzeichnis}{27}{chapter*.82}
