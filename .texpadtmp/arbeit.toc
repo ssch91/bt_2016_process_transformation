@@ -27,19 +27,19 @@
 \contentsline {subsubsection}{\numberline {3.4.2}Performance}{18}{subsubsection.55}
 \contentsline {paragraph}{\numberline {3.4.2.1}Key Performance Indicators}{19}{paragraph.56}
 \contentsline {subsection}{\numberline {3.5}Auswertung des Prozessablaufs}{19}{subsection.59}
-\contentsline {chapter}{\numberline {III}Neukonzeption}{21}{chapter.60}
-\contentsline {section}{\numberline {1}ADM als Methode}{21}{section.61}
-\contentsline {section}{\numberline {2}Preliminary}{23}{section.69}
-\contentsline {subsection}{\numberline {2.1}Anforderungsanalyse}{23}{subsection.70}
-\contentsline {subsubsection}{\numberline {2.1.1}Interne Anforderungen}{23}{subsubsection.71}
-\contentsline {subsubsection}{\numberline {2.1.2}Gesetzliche Anforderungen}{23}{subsubsection.72}
-\contentsline {section}{\numberline {3}Phase A: Architecture Vision}{23}{section.73}
-\contentsline {section}{\numberline {4}Phase B: Business Architecutre}{23}{section.74}
-\contentsline {section}{\numberline {5}Phase C: Information Systems Architectures}{23}{section.75}
-\contentsline {subsection}{\numberline {5.1}Data Architecture}{23}{subsection.76}
-\contentsline {subsection}{\numberline {5.2}Application Architecture}{23}{subsection.77}
-\contentsline {section}{\numberline {6}Technologieinfrastruktur}{23}{section.78}
-\contentsline {chapter}{\numberline {IV}Zusammenfassung}{24}{chapter.79}
-\contentsline {chapter}{\numberline {V}Anhang}{25}{chapter.80}
-\contentsline {chapter}{Literaturverzeichnis}{26}{chapter*.81}
-\contentsline {chapter}{Abbildungsverzeichnis}{27}{chapter*.82}
+\contentsline {chapter}{\numberline {III}Neukonzeption}{22}{chapter.60}
+\contentsline {section}{\numberline {1}ADM als Methode}{22}{section.61}
+\contentsline {section}{\numberline {2}Preliminary}{24}{section.69}
+\contentsline {subsection}{\numberline {2.1}Anforderungsanalyse}{24}{subsection.70}
+\contentsline {subsubsection}{\numberline {2.1.1}Interne Anforderungen}{24}{subsubsection.71}
+\contentsline {subsubsection}{\numberline {2.1.2}Gesetzliche Anforderungen}{24}{subsubsection.72}
+\contentsline {section}{\numberline {3}Phase A: Architecture Vision}{24}{section.73}
+\contentsline {section}{\numberline {4}Phase B: Business Architecutre}{24}{section.74}
+\contentsline {section}{\numberline {5}Phase C: Information Systems Architectures}{24}{section.75}
+\contentsline {subsection}{\numberline {5.1}Data Architecture}{24}{subsection.76}
+\contentsline {subsection}{\numberline {5.2}Application Architecture}{24}{subsection.77}
+\contentsline {section}{\numberline {6}Technologieinfrastruktur}{24}{section.78}
+\contentsline {chapter}{\numberline {IV}Zusammenfassung}{25}{chapter.79}
+\contentsline {chapter}{\numberline {V}Anhang}{26}{chapter.80}
+\contentsline {chapter}{Literaturverzeichnis}{27}{chapter*.81}
+\contentsline {chapter}{Abbildungsverzeichnis}{28}{chapter*.82}
