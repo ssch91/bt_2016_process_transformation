@@ -28,17 +28,49 @@
 \BOOKMARK [2][-]{subsection.59}{Auswertung des Prozessablaufs}{section.36}% 28
 \BOOKMARK [0][-]{chapter.60}{Neukonzeption}{}% 29
 \BOOKMARK [1][-]{section.61}{ADM als Methode}{chapter.60}% 30
-\BOOKMARK [1][-]{section.69}{Preliminary}{chapter.60}% 31
-\BOOKMARK [2][-]{subsection.70}{Anforderungsanalyse}{section.69}% 32
-\BOOKMARK [3][-]{subsubsection.71}{Interne Anforderungen}{subsection.70}% 33
-\BOOKMARK [3][-]{subsubsection.72}{Gesetzliche Anforderungen}{subsection.70}% 34
-\BOOKMARK [1][-]{section.73}{Phase A: Architecture Vision}{chapter.60}% 35
-\BOOKMARK [1][-]{section.74}{Phase B: Business Architecutre}{chapter.60}% 36
-\BOOKMARK [1][-]{section.75}{Phase C: Information Systems Architectures}{chapter.60}% 37
-\BOOKMARK [2][-]{subsection.76}{Data Architecture}{section.75}% 38
-\BOOKMARK [2][-]{subsection.77}{Application Architecture}{section.75}% 39
-\BOOKMARK [1][-]{section.78}{Technologieinfrastruktur}{chapter.60}% 40
-\BOOKMARK [0][-]{chapter.79}{Zusammenfassung}{}% 41
-\BOOKMARK [0][-]{chapter.80}{Anhang}{}% 42
-\BOOKMARK [0][-]{chapter*.81}{Literaturverzeichnis}{}% 43
-\BOOKMARK [0][-]{chapter*.82}{Abbildungsverzeichnis}{}% 44
+\BOOKMARK [1][-]{section.70}{Preliminary}{chapter.60}% 31
+\BOOKMARK [2][-]{subsection.71}{Scope}{section.70}% 32
+\BOOKMARK [2][-]{subsection.72}{Tailoring}{section.70}% 33
+\BOOKMARK [1][-]{section.73}{Phase A: Architecture Vision}{chapter.60}% 34
+\BOOKMARK [2][-]{subsection.74}{Scope}{section.73}% 35
+\BOOKMARK [3][-]{subsubsection.75}{Prozesse}{subsection.74}% 36
+\BOOKMARK [3][-]{subsubsection.76}{Stakeholder}{subsection.74}% 37
+\BOOKMARK [3][-]{subsubsection.82}{Zeit}{subsection.74}% 38
+\BOOKMARK [3][-]{subsubsection.83}{Informationssysteme}{subsection.74}% 39
+\BOOKMARK [3][-]{subsubsection.84}{Physikalische Infrastruktur}{subsection.74}% 40
+\BOOKMARK [2][-]{subsection.85}{Ziele}{section.73}% 41
+\BOOKMARK [2][-]{subsection.88}{Constraints}{section.73}% 42
+\BOOKMARK [3][-]{subsubsection.89}{Interne Regularien}{subsection.88}% 43
+\BOOKMARK [3][-]{subsubsection.90}{Gesetzliche Anforderungen}{subsection.88}% 44
+\BOOKMARK [1][-]{section.91}{Phase B: Business Architecutre}{chapter.60}% 45
+\BOOKMARK [2][-]{subsection.92}{Baseline Architecture}{section.91}% 46
+\BOOKMARK [2][-]{subsection.93}{Target Architecture}{section.91}% 47
+\BOOKMARK [2][-]{subsection.94}{Re-Use-Assessment}{section.91}% 48
+\BOOKMARK [2][-]{subsection.95}{Gap Analysis}{section.91}% 49
+\BOOKMARK [2][-]{subsection.96}{Impact-Assessment}{section.91}% 50
+\BOOKMARK [1][-]{section.97}{Phase C: Information Systems Architectures}{chapter.60}% 51
+\BOOKMARK [2][-]{subsection.98}{Data Architecture}{section.97}% 52
+\BOOKMARK [3][-]{subsubsection.99}{Baseline Architecture}{subsection.98}% 53
+\BOOKMARK [3][-]{subsubsection.100}{Target Architecture}{subsection.98}% 54
+\BOOKMARK [3][-]{subsubsection.101}{Re-Use-Assessment}{subsection.98}% 55
+\BOOKMARK [3][-]{subsubsection.102}{Gap Analysis}{subsection.98}% 56
+\BOOKMARK [3][-]{subsubsection.103}{Impact-Assessment}{subsection.98}% 57
+\BOOKMARK [3][-]{subsubsection.104}{Data Architecture}{subsection.98}% 58
+\BOOKMARK [2][-]{subsection.105}{Application Architecture}{section.97}% 59
+\BOOKMARK [3][-]{subsubsection.106}{Baseline Architecture}{subsection.105}% 60
+\BOOKMARK [3][-]{subsubsection.107}{Target Architecture}{subsection.105}% 61
+\BOOKMARK [3][-]{subsubsection.108}{Re-Use-Assessment}{subsection.105}% 62
+\BOOKMARK [3][-]{subsubsection.109}{Gap Analysis}{subsection.105}% 63
+\BOOKMARK [3][-]{subsubsection.110}{Impact-Assessment}{subsection.105}% 64
+\BOOKMARK [3][-]{subsubsection.111}{Data Architecture}{subsection.105}% 65
+\BOOKMARK [1][-]{section.112}{Phase D: Technology Architecture}{chapter.60}% 66
+\BOOKMARK [2][-]{subsection.113}{Baseline Architecture}{section.112}% 67
+\BOOKMARK [2][-]{subsection.114}{Target Architecture}{section.112}% 68
+\BOOKMARK [2][-]{subsection.115}{Re-Use-Assessment}{section.112}% 69
+\BOOKMARK [2][-]{subsection.116}{Gap Analysis}{section.112}% 70
+\BOOKMARK [2][-]{subsection.117}{Impact-Assessment}{section.112}% 71
+\BOOKMARK [2][-]{subsection.118}{Data Architecture}{section.112}% 72
+\BOOKMARK [0][-]{chapter.119}{Zusammenfassung}{}% 73
+\BOOKMARK [0][-]{chapter.120}{Anhang}{}% 74
+\BOOKMARK [0][-]{chapter*.121}{Literaturverzeichnis}{}% 75
+\BOOKMARK [0][-]{chapter*.122}{Abbildungsverzeichnis}{}% 76
